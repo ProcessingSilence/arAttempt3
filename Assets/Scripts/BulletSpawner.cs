@@ -17,6 +17,7 @@ public class BulletSpawner : MonoBehaviour
     [SerializeField] private Vector3 bulletRotation;
 
     [SerializeField] private Vector2 scaleRange;
+    [SerializeField] public float bulletSpeed;
     public static class CenterPoint
     {
         public static Vector3 position;
@@ -44,6 +45,7 @@ public class BulletSpawner : MonoBehaviour
             Quaternion.Euler(bulletRotation));
 
         currentBullet.transform.localScale *= Random.Range(scaleRange.x, scaleRange.y);
+        currentBullet.GetComponent<Bullet>().speed = bulletSpeed;
         var bulletTrail = currentBullet.GetComponent<TrailRenderer>();
         bulletTrail.endWidth = bulletTrail.startWidth =
             currentBullet.transform.localScale.x;
