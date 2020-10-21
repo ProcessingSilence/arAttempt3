@@ -22,8 +22,7 @@ public class BulletSpawner : MonoBehaviour
         public static Vector3 position;
     }
 
-    // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         StartCoroutine(SpawnRate());
         CenterPoint.position = transform.position;

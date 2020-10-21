@@ -50,15 +50,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BulletSpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="672">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
               <folding>
-                <marker date="1603248463740" expanded="false" signature="6:78" ph="..." />
-                <marker date="1603248463740" expanded="true" signature="122:1580" ph="{...}" />
-                <marker date="1603248463740" expanded="true" signature="493:545" ph="{...}" />
-                <marker date="1603248463740" expanded="true" signature="616:716" ph="{...}" />
-                <marker date="1603248463740" expanded="true" signature="774:795" ph="{...}" />
-                <marker date="1603248463740" expanded="true" signature="824:1578" ph="{...}" />
+                <marker date="1603249718296" expanded="false" signature="6:78" ph="..." />
+                <marker date="1603249718296" expanded="true" signature="122:1597" ph="{...}" />
+                <marker date="1603249718296" expanded="true" signature="552:604" ph="{...}" />
+                <marker date="1603249718296" expanded="true" signature="633:733" ph="{...}" />
+                <marker date="1603249718296" expanded="true" signature="791:812" ph="{...}" />
+                <marker date="1603249718296" expanded="true" signature="841:1595" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -170,12 +170,12 @@
       <option name="presentableId" value="Default" />
       <updated>1603057698824</updated>
       <workItem from="1603057710990" duration="3708000" />
-      <workItem from="1603221130533" duration="7760000" />
+      <workItem from="1603221130533" duration="9003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11468000" />
+    <option name="totallyTimeSpent" value="12711000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -187,7 +187,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="7" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24959481" />
@@ -326,15 +326,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BulletSpawner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="672">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
-            <marker date="1603248463740" expanded="false" signature="6:78" ph="..." />
-            <marker date="1603248463740" expanded="true" signature="122:1580" ph="{...}" />
-            <marker date="1603248463740" expanded="true" signature="493:545" ph="{...}" />
-            <marker date="1603248463740" expanded="true" signature="616:716" ph="{...}" />
-            <marker date="1603248463740" expanded="true" signature="774:795" ph="{...}" />
-            <marker date="1603248463740" expanded="true" signature="824:1578" ph="{...}" />
+            <marker date="1603249718296" expanded="false" signature="6:78" ph="..." />
+            <marker date="1603249718296" expanded="true" signature="122:1597" ph="{...}" />
+            <marker date="1603249718296" expanded="true" signature="552:604" ph="{...}" />
+            <marker date="1603249718296" expanded="true" signature="633:733" ph="{...}" />
+            <marker date="1603249718296" expanded="true" signature="791:812" ph="{...}" />
+            <marker date="1603249718296" expanded="true" signature="841:1595" ph="{...}" />
           </folding>
         </state>
       </provider>
