@@ -8,40 +8,80 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Assets/Scripts/Unused/TapToPlace.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="736">
+                    <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+                    <folding>
+                      <marker date="1603250234629" expanded="false" signature="6:177" ph="..." />
+                      <marker date="1603250234629" expanded="true" signature="179:349" ph="/* Credit because I was struggling a bit on getting object placement working: ... */" />
+                      <marker date="1603250234629" expanded="true" signature="435:1353" ph="{...}" />
+                      <marker date="1603250234629" expanded="true" signature="656:726" ph="{...}" />
+                      <marker date="1603250234629" expanded="true" signature="772:946" ph="{...}" />
+                      <marker date="1603250234629" expanded="true" signature="809:895" ph="{...}" />
+                      <marker date="1603250234629" expanded="true" signature="972:1350" ph="{...}" />
+                      <marker date="1603250234629" expanded="true" signature="1026:1059" ph="{...}" />
+                      <marker date="1603250234629" expanded="true" signature="1149:1345" ph="{...}" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HitDetection.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="368">
+              <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
               <folding>
-                <marker date="1603221422907" expanded="false" signature="6:78" ph="..." />
-                <marker date="1603221422907" expanded="true" signature="121:578" ph="{...}" />
-                <marker date="1603221422907" expanded="true" signature="231:306" ph="{...}" />
-                <marker date="1603221422907" expanded="true" signature="364:385" ph="{...}" />
-                <marker date="1603221422907" expanded="true" signature="434:576" ph="{...}" />
-                <marker date="1603221422907" expanded="true" signature="478:570" ph="{...}" />
+                <marker date="1603256521032" expanded="false" signature="6:78" ph="..." />
+                <marker date="1603256521032" expanded="true" signature="121:881" ph="{...}" />
+                <marker date="1603256521032" expanded="true" signature="283:358" ph="{...}" />
+                <marker date="1603256521032" expanded="true" signature="416:663" ph="{...}" />
+                <marker date="1603256521032" expanded="true" signature="468:657" ph="{...}" />
+                <marker date="1603256521032" expanded="true" signature="712:879" ph="{...}" />
+                <marker date="1603256521032" expanded="true" signature="756:873" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Unused/TapToPlace.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+              <folding>
+                <marker date="1603257319677" expanded="false" signature="6:78" ph="..." />
+                <marker date="1603257319677" expanded="true" signature="171:972" ph="{...}" />
+                <marker date="1603257319677" expanded="true" signature="437:869" ph="{...}" />
+                <marker date="1603257319677" expanded="true" signature="474:662" ph="{...}" />
+                <marker date="1603257319677" expanded="true" signature="716:863" ph="{...}" />
+                <marker date="1603257319677" expanded="true" signature="901:970" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Unused/ShipMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
               <folding>
-                <marker date="1603250234629" expanded="true" signature="6:177" ph="..." />
-                <marker date="1603250234629" expanded="true" signature="179:349" ph="/* Credit because I was struggling a bit on getting object placement working: ... */" />
-                <marker date="1603250234629" expanded="true" signature="435:1353" ph="{...}" />
-                <marker date="1603250234629" expanded="true" signature="656:726" ph="{...}" />
-                <marker date="1603250234629" expanded="true" signature="772:946" ph="{...}" />
-                <marker date="1603250234629" expanded="true" signature="809:895" ph="{...}" />
-                <marker date="1603250234629" expanded="true" signature="972:1350" ph="{...}" />
-                <marker date="1603250234629" expanded="true" signature="1026:1059" ph="{...}" />
-                <marker date="1603250234629" expanded="true" signature="1149:1345" ph="{...}" />
+                <marker date="1603256193917" expanded="true" signature="0:516" ph="/* using UnityEngine; ... */" />
               </folding>
             </state>
           </provider>
@@ -85,6 +125,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>_raycastManager</find>
+      <find>mous</find>
     </findStrings>
     <replaceStrings>
       <replace>_arRaycastManager</replace>
@@ -94,10 +135,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../arkit-basic-planes-tutorial-place-objects/Assets/Scripts/CubeManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Unused/TapToPlace.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HitDetection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Unused/ShipMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -107,14 +150,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TapToPlace.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOnPlay.cs" />
         <option value="$PROJECT_DIR$/../arkit-basic-planes-tutorial-place-objects/Assets/Scripts/CubeManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HitDetection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Unused/TapToPlace.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Unused/ShipMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HitDetection.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1273" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
@@ -170,12 +215,12 @@
       <option name="presentableId" value="Default" />
       <updated>1603057698824</updated>
       <workItem from="1603057710990" duration="3708000" />
-      <workItem from="1603221130533" duration="9515000" />
+      <workItem from="1603221130533" duration="16539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13223000" />
+    <option name="totallyTimeSpent" value="20247000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -187,7 +232,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="7" />
+    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24959481" />
@@ -277,21 +322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HitDetection.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <marker date="1603221422907" expanded="false" signature="6:78" ph="..." />
-            <marker date="1603221422907" expanded="true" signature="121:578" ph="{...}" />
-            <marker date="1603221422907" expanded="true" signature="231:306" ph="{...}" />
-            <marker date="1603221422907" expanded="true" signature="364:385" ph="{...}" />
-            <marker date="1603221422907" expanded="true" signature="434:576" ph="{...}" />
-            <marker date="1603221422907" expanded="true" signature="478:570" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -323,10 +353,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Unused/TapToPlace.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+        <state relative-caret-position="736">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
-            <marker date="1603250234629" expanded="true" signature="6:177" ph="..." />
+            <marker date="1603250234629" expanded="false" signature="6:177" ph="..." />
             <marker date="1603250234629" expanded="true" signature="179:349" ph="/* Credit because I was struggling a bit on getting object placement working: ... */" />
             <marker date="1603250234629" expanded="true" signature="435:1353" ph="{...}" />
             <marker date="1603250234629" expanded="true" signature="656:726" ph="{...}" />
@@ -335,6 +365,47 @@
             <marker date="1603250234629" expanded="true" signature="972:1350" ph="{...}" />
             <marker date="1603250234629" expanded="true" signature="1026:1059" ph="{...}" />
             <marker date="1603250234629" expanded="true" signature="1149:1345" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Unused/ShipMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding>
+            <marker date="1603256193917" expanded="true" signature="0:516" ph="/* using UnityEngine; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HitDetection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+          <folding>
+            <marker date="1603256521032" expanded="false" signature="6:78" ph="..." />
+            <marker date="1603256521032" expanded="true" signature="121:881" ph="{...}" />
+            <marker date="1603256521032" expanded="true" signature="283:358" ph="{...}" />
+            <marker date="1603256521032" expanded="true" signature="416:663" ph="{...}" />
+            <marker date="1603256521032" expanded="true" signature="468:657" ph="{...}" />
+            <marker date="1603256521032" expanded="true" signature="712:879" ph="{...}" />
+            <marker date="1603256521032" expanded="true" signature="756:873" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <marker date="1603257319677" expanded="false" signature="6:78" ph="..." />
+            <marker date="1603257319677" expanded="true" signature="171:972" ph="{...}" />
+            <marker date="1603257319677" expanded="true" signature="437:869" ph="{...}" />
+            <marker date="1603257319677" expanded="true" signature="474:662" ph="{...}" />
+            <marker date="1603257319677" expanded="true" signature="716:863" ph="{...}" />
+            <marker date="1603257319677" expanded="true" signature="901:970" ph="{...}" />
           </folding>
         </state>
       </provider>

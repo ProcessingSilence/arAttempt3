@@ -164,9 +164,10 @@
           <e p="BulletSpawner.cs" t="Include" />
           <e p="DestroyOnPlay.cs" t="Include" />
           <e p="HitDetection.cs" t="Include" />
+          <e p="Timer.cs" t="Include" />
           <e p="Unused" t="Include">
             <e p="arTapToPlace.cs" t="Include" />
-            <e p="CubeManager.cs" t="Include" />
+            <e p="ShipMovement.cs" t="Include" />
             <e p="TapToPlace.cs" t="Include" />
           </e>
         </e>
