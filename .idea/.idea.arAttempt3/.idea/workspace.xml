@@ -58,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="496">
@@ -87,18 +87,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BulletSpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+            <state relative-caret-position="928">
+              <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
               <folding>
-                <marker date="1603249926939" expanded="false" signature="6:78" ph="..." />
-                <marker date="1603249926939" expanded="true" signature="122:1534" ph="{...}" />
-                <marker date="1603249926939" expanded="true" signature="493:545" ph="{...}" />
-                <marker date="1603249926939" expanded="true" signature="570:670" ph="{...}" />
-                <marker date="1603249926939" expanded="true" signature="728:749" ph="{...}" />
-                <marker date="1603249926939" expanded="true" signature="778:1532" ph="{...}" />
+                <marker date="1603258322741" expanded="false" signature="6:78" ph="..." />
+                <marker date="1603258322741" expanded="true" signature="122:1906" ph="{...}" />
+                <marker date="1603258322741" expanded="true" signature="621:673" ph="{...}" />
+                <marker date="1603258322741" expanded="true" signature="698:798" ph="{...}" />
+                <marker date="1603258322741" expanded="true" signature="856:877" ph="{...}" />
+                <marker date="1603258322741" expanded="true" signature="906:1904" ph="{...}" />
+                <marker date="1603258322741" expanded="true" signature="1762:1860" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -107,14 +108,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+            <state relative-caret-position="48">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding>
-                <marker date="1603247196525" expanded="false" signature="6:78" ph="..." />
-                <marker date="1603247196525" expanded="true" signature="115:657" ph="{...}" />
-                <marker date="1603247196525" expanded="true" signature="318:386" ph="{...}" />
-                <marker date="1603247196525" expanded="true" signature="444:655" ph="{...}" />
-                <marker date="1603247196525" expanded="true" signature="596:649" ph="{...}" />
+                <marker date="1603257481394" expanded="false" signature="6:78" ph="..." />
+                <marker date="1603257481394" expanded="true" signature="115:635" ph="{...}" />
+                <marker date="1603257481394" expanded="true" signature="296:364" ph="{...}" />
+                <marker date="1603257481394" expanded="true" signature="422:633" ph="{...}" />
+                <marker date="1603257481394" expanded="true" signature="574:627" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -150,12 +151,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TapToPlace.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOnPlay.cs" />
         <option value="$PROJECT_DIR$/../arkit-basic-planes-tutorial-place-objects/Assets/Scripts/CubeManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BulletSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Unused/TapToPlace.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Unused/ShipMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HitDetection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BulletSpawner.cs" />
       </list>
     </option>
   </component>
@@ -215,12 +216,12 @@
       <option name="presentableId" value="Default" />
       <updated>1603057698824</updated>
       <workItem from="1603057710990" duration="3708000" />
-      <workItem from="1603221130533" duration="16539000" />
+      <workItem from="1603221130533" duration="17408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20247000" />
+    <option name="totallyTimeSpent" value="21116000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -322,35 +323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
-          <folding>
-            <marker date="1603247196525" expanded="false" signature="6:78" ph="..." />
-            <marker date="1603247196525" expanded="true" signature="115:657" ph="{...}" />
-            <marker date="1603247196525" expanded="true" signature="318:386" ph="{...}" />
-            <marker date="1603247196525" expanded="true" signature="444:655" ph="{...}" />
-            <marker date="1603247196525" expanded="true" signature="596:649" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BulletSpawner.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-          <folding>
-            <marker date="1603249926939" expanded="false" signature="6:78" ph="..." />
-            <marker date="1603249926939" expanded="true" signature="122:1534" ph="{...}" />
-            <marker date="1603249926939" expanded="true" signature="493:545" ph="{...}" />
-            <marker date="1603249926939" expanded="true" signature="570:670" ph="{...}" />
-            <marker date="1603249926939" expanded="true" signature="728:749" ph="{...}" />
-            <marker date="1603249926939" expanded="true" signature="778:1532" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Unused/TapToPlace.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
@@ -365,16 +337,6 @@
             <marker date="1603250234629" expanded="true" signature="972:1350" ph="{...}" />
             <marker date="1603250234629" expanded="true" signature="1026:1059" ph="{...}" />
             <marker date="1603250234629" expanded="true" signature="1149:1345" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Unused/ShipMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-          <folding>
-            <marker date="1603256193917" expanded="true" signature="0:516" ph="/* using UnityEngine; ... */" />
           </folding>
         </state>
       </provider>
@@ -395,6 +357,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <marker date="1603257481394" expanded="false" signature="6:78" ph="..." />
+            <marker date="1603257481394" expanded="true" signature="115:635" ph="{...}" />
+            <marker date="1603257481394" expanded="true" signature="296:364" ph="{...}" />
+            <marker date="1603257481394" expanded="true" signature="422:633" ph="{...}" />
+            <marker date="1603257481394" expanded="true" signature="574:627" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
@@ -406,6 +382,32 @@
             <marker date="1603257319677" expanded="true" signature="474:662" ph="{...}" />
             <marker date="1603257319677" expanded="true" signature="716:863" ph="{...}" />
             <marker date="1603257319677" expanded="true" signature="901:970" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Unused/ShipMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding>
+            <marker date="1603256193917" expanded="true" signature="0:516" ph="/* using UnityEngine; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BulletSpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+          <folding>
+            <marker date="1603258322741" expanded="false" signature="6:78" ph="..." />
+            <marker date="1603258322741" expanded="true" signature="122:1906" ph="{...}" />
+            <marker date="1603258322741" expanded="true" signature="621:673" ph="{...}" />
+            <marker date="1603258322741" expanded="true" signature="698:798" ph="{...}" />
+            <marker date="1603258322741" expanded="true" signature="856:877" ph="{...}" />
+            <marker date="1603258322741" expanded="true" signature="906:1904" ph="{...}" />
+            <marker date="1603258322741" expanded="true" signature="1762:1860" ph="{...}" />
           </folding>
         </state>
       </provider>

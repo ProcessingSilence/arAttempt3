@@ -17,7 +17,11 @@ public class BulletSpawner : MonoBehaviour
     [SerializeField] private Vector3 bulletRotation;
 
     [SerializeField] private Vector2 scaleRange;
+    
     [SerializeField] public float bulletSpeed;
+
+    public int projectileCount;
+    private int projectileMilestone = 100;
     public static class CenterPoint
     {
         public static Vector3 position;
@@ -50,6 +54,14 @@ public class BulletSpawner : MonoBehaviour
         bulletTrail.endWidth = bulletTrail.startWidth =
             currentBullet.transform.localScale.x;
         yield return new WaitForSecondsRealtime(Random.Range(spawnTimingRange.x, spawnTimingRange.y));
+        projectileCount++;
+        if (projectileCount >= projectileMilestone)
+        {
+            projectileMilestone += 100;
+            spawnTimingRange /= 1.1f;
+            bulletSpeed *= 1.1f;
+        }
+
         StartCoroutine(SpawnRate());
     }
 }
