@@ -21,7 +21,6 @@ public class TapToPlace : MonoBehaviour
    private void Awake()
    {
       _arRaycastManager = GetComponent<ARRaycastManager>();
-      placeablePrefab = Instantiate(placeablePrefab, Vector3.zero, Quaternion.identity);
    }
 
    bool TryGetTouchPos(out Vector2 touchPos)

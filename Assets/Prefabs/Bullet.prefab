@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  allowedDist: 20
+  allowedDist: 5
 --- !u!96 &4526623038093974258
 TrailRenderer:
   serializedVersion: 2
