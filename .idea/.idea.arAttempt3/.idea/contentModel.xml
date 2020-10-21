@@ -161,6 +161,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Bullet.cs" t="Include" />
+          <e p="BulletSpawner.cs" t="Include" />
           <e p="DestroyOnPlay.cs" t="Include" />
           <e p="HitDetection.cs" t="Include" />
           <e p="Unused" t="Include">
