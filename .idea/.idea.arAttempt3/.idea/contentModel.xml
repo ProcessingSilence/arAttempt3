@@ -165,6 +165,7 @@
           <e p="HitDetection.cs" t="Include" />
           <e p="Unused" t="Include">
             <e p="arTapToPlace.cs" t="Include" />
+            <e p="CubeManager.cs" t="Include" />
             <e p="TapToPlace.cs" t="Include" />
           </e>
         </e>

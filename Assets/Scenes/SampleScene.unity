@@ -966,7 +966,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef8aa364540154641bf72afce3e1d6c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placeablePrefab: {fileID: 5593389555479774257, guid: c884019936bfd234d8a040c952d02b4f, type: 3}
+  placeablePrefab: {fileID: 1396541398333910644, guid: 66b08a5238ccfd54e94d2e36acd6805f, type: 3}
+  _arRaycastManager: {fileID: 1074999233}
 --- !u!114 &1074999233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1735,6 +1736,22 @@ PrefabInstance:
     - target: {fileID: 2685879923079360301, guid: 89c63ff105a417c49bce6b449727890a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473538222712451234, guid: 89c63ff105a417c49bce6b449727890a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526623038093974258, guid: 89c63ff105a417c49bce6b449727890a, type: 3}
+      propertyPath: m_Time
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235504570792294524, guid: 89c63ff105a417c49bce6b449727890a, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235504570792294524, guid: 89c63ff105a417c49bce6b449727890a, type: 3}
+      propertyPath: m_Intensity
+      value: 15.66
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89c63ff105a417c49bce6b449727890a, type: 3}

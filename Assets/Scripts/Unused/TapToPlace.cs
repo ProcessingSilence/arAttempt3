@@ -13,13 +13,14 @@ public class TapToPlace : MonoBehaviour
 {
    [SerializeField]
    private GameObject placeablePrefab;
-   
+   [SerializeField]
    private ARRaycastManager _arRaycastManager;
    
    static List<ARRaycastHit> s_Hits = new List<ARRaycastHit>();
 
    private void Awake()
    {
+      _arRaycastManager = GetComponent<ARRaycastManager>();
       placeablePrefab = Instantiate(placeablePrefab, Vector3.zero, Quaternion.identity);
    }
 
@@ -46,8 +47,7 @@ public class TapToPlace : MonoBehaviour
          var hitPos = s_Hits[0].pose;
 
             placeablePrefab.transform.position = hitPos.position;
-            placeablePrefab.transform.rotation = hitPos.rotation;
-         
+            placeablePrefab.transform.rotation = hitPos.rotation;         
       }
    }
 
