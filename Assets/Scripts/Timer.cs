@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
-    public HitDetection player;
+    public HealthState player;
 
     public float currentTime;
 

@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HitDetection : MonoBehaviour
+public class HealthState : MonoBehaviour
 {
     private AudioSource _audioSource;
 
     public int health;
 
-    private bool playOnce;
+    private bool isDead;
 
     [SerializeField] private AudioClip ouchSound;
     // Start is called before the first frame update
@@ -20,12 +20,18 @@ public class HitDetection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (health <= 0 && playOnce == false)
+        if (health <= 0 && isDead == false)
         {
-            playOnce = true;
+            isDead = true;
+            
+            gameObject.GetComponent<BoxCollider>().enabled = false;
+            gameObject.GetComponent<DefenseBullet>().enabled = false;
+            gameObject.GetComponent<Rigidbody>().useGravity = true;
+            
+            PowerupHUD.CurrentState.spriteEnable = false;
+
             _audioSource.pitch = 0.5f;
             PlaySound(ouchSound);
-            gameObject.GetComponent<Rigidbody>().useGravity = true;
         }
     }
 

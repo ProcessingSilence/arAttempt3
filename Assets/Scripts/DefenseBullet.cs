@@ -25,6 +25,7 @@ public class DefenseBullet : MonoBehaviour
             Instantiate(defenseBullet, transform.position, Quaternion.identity);
             _audioSource.clip = fireSound;
             _audioSource.Play();
+            PowerupHUD.CurrentState.spriteEnable = false;
         }
     }
 
@@ -36,6 +37,7 @@ public class DefenseBullet : MonoBehaviour
             hasBullet = true;
             _audioSource.clip = getPowerup;
                 _audioSource.Play();
+                PowerupHUD.CurrentState.spriteEnable = true;
         }
     }
 }
