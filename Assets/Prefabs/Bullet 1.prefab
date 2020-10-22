@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5339694451948993693}
   m_Layer: 0
   m_Name: Bullet 1
-  m_TagString: ouch
+  m_TagString: ouchSmall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  originPos: {x: 0, y: 0, z: 0}
   allowedDist: 10
 --- !u!96 &4526623038093974258
 TrailRenderer:

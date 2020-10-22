@@ -37,7 +37,7 @@ public class HealthState : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("ouch"))
+        if (other.CompareTag("ouch") || other.CompareTag("ouchSmall") )
         {
             Destroy(other.gameObject);
             PlaySound(ouchSound);

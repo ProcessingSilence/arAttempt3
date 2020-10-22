@@ -22,6 +22,11 @@ public class DestroyBullet : MonoBehaviour
             Destroy(other.gameObject);
             StartCoroutine(DestructionProcess());
         }
+        if (other.CompareTag("ouchSmall"))
+        {
+            Destroy(other.gameObject);
+            _audioSource.Play();
+        }
     }
     IEnumerator DestructionProcess()
     {
