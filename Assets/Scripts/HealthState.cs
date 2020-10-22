@@ -11,10 +11,15 @@ public class HealthState : MonoBehaviour
     public bool isDead;
 
     [SerializeField] private AudioClip ouchSound;
+
+    [SerializeField] private Material[] matHealth;
+
+    private MeshRenderer _meshRenderer;
     // Start is called before the first frame update
     void Awake()
     {
         _audioSource = gameObject.GetComponent<AudioSource>();
+        _meshRenderer = transform.GetChild(0).GetComponent<MeshRenderer>();
     }
 
     // Update is called once per frame
@@ -32,6 +37,22 @@ public class HealthState : MonoBehaviour
 
             _audioSource.pitch = 0.5f;
             PlaySound(ouchSound);
+        }
+
+        switch (health)
+        {
+            case 3:
+                _meshRenderer.material = matHealth[0];
+                break;
+            case 2:
+                _meshRenderer.material = matHealth[1];
+                break;
+            case 1:
+                _meshRenderer.material = matHealth[2];
+                break;
+            default:
+                _meshRenderer.material = matHealth[3];
+                break;               
         }
     }
 

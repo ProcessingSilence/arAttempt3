@@ -464,6 +464,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &302988620 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7106943152439256205, guid: 66b08a5238ccfd54e94d2e36acd6805f, type: 3}
+  m_PrefabInstance: {fileID: 1207409700}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &310732539
 GameObject:
   m_ObjectHideFlags: 0
@@ -1605,6 +1610,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 302988620}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1078065825}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -1808,6 +1825,10 @@ PrefabInstance:
       propertyPath: getTrailRenderer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 424399259608473077, guid: 66b08a5238ccfd54e94d2e36acd6805f, type: 3}
+      propertyPath: spawnRangeY.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1396541398333910632, guid: 66b08a5238ccfd54e94d2e36acd6805f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1879,6 +1900,14 @@ PrefabInstance:
     - target: {fileID: 3846410041189353938, guid: 66b08a5238ccfd54e94d2e36acd6805f, type: 3}
       propertyPath: getTrailRenderer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846410041189353938, guid: 66b08a5238ccfd54e94d2e36acd6805f, type: 3}
+      propertyPath: spawnRangeY.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7106943152439256205, guid: 66b08a5238ccfd54e94d2e36acd6805f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8493732376466039880, guid: 66b08a5238ccfd54e94d2e36acd6805f, type: 3}
       propertyPath: spawnRangeY.x
@@ -2433,6 +2462,11 @@ MonoBehaviour:
   health: 3
   isDead: 0
   ouchSound: {fileID: 8300000, guid: 0d58da65bd1905b45a3d9445f2500b8c, type: 3}
+  matHealth:
+  - {fileID: 2100000, guid: 0a48523b391ced040b3ba3b6d3fbd706, type: 2}
+  - {fileID: 2100000, guid: 927789afcfae0494da2124a9db341c72, type: 2}
+  - {fileID: 2100000, guid: caa2f04338823284386b7e6823b1aeed, type: 2}
+  - {fileID: 2100000, guid: 19d66686bafa64b4f9596ac8e49c8a8c, type: 2}
 --- !u!54 &520353557122912456
 Rigidbody:
   m_ObjectHideFlags: 0
