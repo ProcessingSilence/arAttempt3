@@ -2463,7 +2463,7 @@ MonoBehaviour:
   isDead: 0
   ouchSound: {fileID: 8300000, guid: 0d58da65bd1905b45a3d9445f2500b8c, type: 3}
   matHealth:
-  - {fileID: 2100000, guid: 0a48523b391ced040b3ba3b6d3fbd706, type: 2}
+  - {fileID: 2100000, guid: 581e952bec429f64183bf18b0be79010, type: 2}
   - {fileID: 2100000, guid: 927789afcfae0494da2124a9db341c72, type: 2}
   - {fileID: 2100000, guid: caa2f04338823284386b7e6823b1aeed, type: 2}
   - {fileID: 2100000, guid: 19d66686bafa64b4f9596ac8e49c8a8c, type: 2}
