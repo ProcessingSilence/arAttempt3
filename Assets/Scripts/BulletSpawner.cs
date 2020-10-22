@@ -21,7 +21,9 @@ public class BulletSpawner : MonoBehaviour
     [SerializeField] public float bulletSpeed;
 
     public int projectileCount;
-    private int projectileMilestone = 100;
+    
+    [SerializeField] private int projectileMilestone = 100;
+    private int milestoneIteration;
     public static class CenterPoint
     {
         public static Vector3 position;
@@ -29,6 +31,7 @@ public class BulletSpawner : MonoBehaviour
 
     public void Start()
     {
+        milestoneIteration = projectileMilestone;
         StartCoroutine(SpawnRate());
         CenterPoint.position = transform.position;
     }
@@ -57,7 +60,7 @@ public class BulletSpawner : MonoBehaviour
         projectileCount++;
         if (projectileCount >= projectileMilestone)
         {
-            projectileMilestone += 100;
+            projectileMilestone += milestoneIteration;
             spawnTimingRange /= 1.1f;
             bulletSpeed *= 1.1f;
         }

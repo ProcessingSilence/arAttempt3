@@ -159,9 +159,12 @@
             <e p="ThirdPartyNotices.txt" t="Include" />
           </e>
         </e>
+        <e p="RotateForever.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Bullet.cs" t="Include" />
           <e p="BulletSpawner.cs" t="Include" />
+          <e p="DefenseBullet.cs" t="Include" />
+          <e p="DestroyBullet.cs" t="Include" />
           <e p="DestroyOnPlay.cs" t="Include" />
           <e p="HitDetection.cs" t="Include" />
           <e p="Timer.cs" t="Include" />

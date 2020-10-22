@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - ouch
+  - powerUp
+  - powerup
   layers:
   - Default
   - TransparentFX
@@ -14,8 +16,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Player
+  - Powerup
   - 
   - 
   - 

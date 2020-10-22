@@ -9,6 +9,8 @@ public class HitDetection : MonoBehaviour
     public int health;
 
     private bool playOnce;
+
+    [SerializeField] private AudioClip ouchSound;
     // Start is called before the first frame update
     void Awake()
     {
@@ -22,7 +24,7 @@ public class HitDetection : MonoBehaviour
         {
             playOnce = true;
             _audioSource.pitch = 0.5f;
-            _audioSource.Play();
+            PlaySound(ouchSound);
             gameObject.GetComponent<Rigidbody>().useGravity = true;
         }
     }
@@ -32,8 +34,14 @@ public class HitDetection : MonoBehaviour
         if (other.CompareTag("ouch"))
         {
             Destroy(other.gameObject);
-            _audioSource.Play();
+            PlaySound(ouchSound);
             health -= 1;
         }
+    }
+
+    private void PlaySound(AudioClip clip)
+    {
+        _audioSource.clip = clip;
+        _audioSource.Play();
     }
 }

@@ -6,7 +6,7 @@ public class Bullet : MonoBehaviour
 {
     public float speed;
 
-    private Vector3 originPos;
+    [SerializeField]private Vector3 originPos;
 
     [SerializeField]
     private float allowedDist;
