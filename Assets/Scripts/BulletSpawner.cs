@@ -24,6 +24,8 @@ public class BulletSpawner : MonoBehaviour
     
     [SerializeField] private int projectileMilestone = 100;
     private int milestoneIteration;
+
+    [SerializeField] private bool getTrailRenderer;
     public static class CenterPoint
     {
         public static Vector3 position;
@@ -53,9 +55,14 @@ public class BulletSpawner : MonoBehaviour
 
         currentBullet.transform.localScale *= Random.Range(scaleRange.x, scaleRange.y);
         currentBullet.GetComponent<Bullet>().speed = bulletSpeed;
-        var bulletTrail = currentBullet.GetComponent<TrailRenderer>();
-        bulletTrail.endWidth = bulletTrail.startWidth =
-            currentBullet.transform.localScale.x;
+        if (getTrailRenderer)
+        {
+            var bulletTrail = currentBullet.GetComponent<TrailRenderer>();
+            bulletTrail.endWidth = bulletTrail.startWidth =
+                currentBullet.transform.localScale.x;
+        }
+
+
         yield return new WaitForSecondsRealtime(Random.Range(spawnTimingRange.x, spawnTimingRange.y));
         projectileCount++;
         if (projectileCount >= projectileMilestone)

@@ -165,7 +165,7 @@
           <e p="DefenseBullet.cs" t="Include" />
           <e p="DestroyBullet.cs" t="Include" />
           <e p="DestroyOnPlay.cs" t="Include" />
-          <e p="HitDetection.cs" t="Include" />
+          <e p="HealthState.cs" t="Include" />
           <e p="PowerupHUD.cs" t="Include" />
           <e p="RotateForever.cs" t="Include" />
           <e p="Timer.cs" t="Include" />
