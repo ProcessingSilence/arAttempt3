@@ -26,6 +26,8 @@ public class BulletSpawner : MonoBehaviour
     private int milestoneIteration;
 
     [SerializeField] private bool getTrailRenderer;
+
+    private HealthState _healthState;
     public static class CenterPoint
     {
         public static Vector3 position;
@@ -36,12 +38,7 @@ public class BulletSpawner : MonoBehaviour
         milestoneIteration = projectileMilestone;
         StartCoroutine(SpawnRate());
         CenterPoint.position = transform.position;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        _healthState = GameObject.FindWithTag("Player").GetComponent<HealthState>();
     }
 
     IEnumerator SpawnRate()
@@ -72,6 +69,11 @@ public class BulletSpawner : MonoBehaviour
             bulletSpeed *= 1.1f;
         }
 
-        StartCoroutine(SpawnRate());
+        if (_healthState.isDead == false)
+            StartCoroutine(SpawnRate());
+        else
+        {
+            gameObject.GetComponent<BulletSpawner>().enabled = false;
+        }
     }
 }

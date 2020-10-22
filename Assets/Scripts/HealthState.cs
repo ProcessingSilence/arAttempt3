@@ -8,7 +8,7 @@ public class HealthState : MonoBehaviour
 
     public int health;
 
-    private bool isDead;
+    public bool isDead;
 
     [SerializeField] private AudioClip ouchSound;
     // Start is called before the first frame update
