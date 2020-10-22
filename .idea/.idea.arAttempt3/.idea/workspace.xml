@@ -57,25 +57,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HitDetection.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-              <folding>
-                <marker date="1603338388320" expanded="false" signature="6:78" ph="..." />
-                <marker date="1603338388320" expanded="true" signature="120:1269" ph="{...}" />
-                <marker date="1603338388320" expanded="true" signature="331:406" ph="{...}" />
-                <marker date="1603338388320" expanded="true" signature="464:931" ph="{...}" />
-                <marker date="1603338388320" expanded="true" signature="514:925" ph="{...}" />
-                <marker date="1603338388320" expanded="true" signature="980:1148" ph="{...}" />
-                <marker date="1603338388320" expanded="true" signature="1024:1142" ph="{...}" />
-                <marker date="1603338388320" expanded="true" signature="1192:1267" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DefenseBullet.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -196,7 +177,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerupHUD.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../arkit-basic-planes-tutorial-place-objects/Assets/Scripts/CubeManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HitDetection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Unused/ShipMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyBullet.cs" root0="FORCE_HIGHLIGHTING" />
@@ -226,9 +206,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1294" />
-    <option name="height" value="1407" />
+    <option name="x" value="1326" />
+    <option name="y" value="91" />
+    <option name="width" value="1280" />
+    <option name="height" value="1160" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -281,12 +262,12 @@
       <option name="presentableId" value="Default" />
       <updated>1603057698824</updated>
       <workItem from="1603057710990" duration="3708000" />
-      <workItem from="1603221130533" duration="23828000" />
+      <workItem from="1603221130533" duration="24411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27536000" />
+    <option name="totallyTimeSpent" value="28119000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -298,7 +279,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1407" extended-state="1" />
+    <frame x="1326" y="91" width="1280" height="1160" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24959481" />
@@ -473,20 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PowerupHUD.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-          <folding>
-            <marker date="1603338113819" expanded="false" signature="6:78" ph="..." />
-            <marker date="1603338113819" expanded="true" signature="141:521" ph="{...}" />
-            <marker date="1603338113819" expanded="true" signature="212:265" ph="{...}" />
-            <marker date="1603338113819" expanded="true" signature="336:394" ph="{...}" />
-            <marker date="1603338113819" expanded="true" signature="452:519" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Unused/ShipMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -501,15 +468,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PowerupHUD.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
           <folding>
-            <marker date="1603338388320" expanded="false" signature="6:78" ph="..." />
-            <marker date="1603338388320" expanded="true" signature="120:1269" ph="{...}" />
-            <marker date="1603338388320" expanded="true" signature="331:406" ph="{...}" />
-            <marker date="1603338388320" expanded="true" signature="464:931" ph="{...}" />
-            <marker date="1603338388320" expanded="true" signature="514:925" ph="{...}" />
-            <marker date="1603338388320" expanded="true" signature="980:1148" ph="{...}" />
-            <marker date="1603338388320" expanded="true" signature="1024:1142" ph="{...}" />
-            <marker date="1603338388320" expanded="true" signature="1192:1267" ph="{...}" />
+            <marker date="1603338113819" expanded="false" signature="6:78" ph="..." />
+            <marker date="1603338113819" expanded="true" signature="141:521" ph="{...}" />
+            <marker date="1603338113819" expanded="true" signature="212:265" ph="{...}" />
+            <marker date="1603338113819" expanded="true" signature="336:394" ph="{...}" />
+            <marker date="1603338113819" expanded="true" signature="452:519" ph="{...}" />
           </folding>
         </state>
       </provider>
