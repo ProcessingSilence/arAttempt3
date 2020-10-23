@@ -8,6 +8,9 @@ TagManager:
   - powerUp
   - powerup
   - ouchSmall
+  - Undefined
+  - arPlane
+  - arPlaneManager
   layers:
   - Default
   - TransparentFX

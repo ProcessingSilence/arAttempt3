@@ -165,6 +165,8 @@
           <e p="DefenseBullet.cs" t="Include" />
           <e p="DestroyBullet.cs" t="Include" />
           <e p="DestroyOnPlay.cs" t="Include" />
+          <e p="DisablePlaneView.cs" t="Include" />
+          <e p="GoAwayPlane.cs" t="Include" />
           <e p="HealthState.cs" t="Include" />
           <e p="PowerupHUD.cs" t="Include" />
           <e p="RotateForever.cs" t="Include" />
